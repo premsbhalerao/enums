@@ -1,0 +1,12 @@
+enum Level {
+  LOW,
+  MEDIUM,
+  HIGH,
+  PREM
+}
+public class Main { 
+  public static void main(String[] args) { 
+    Level myVar = Level.PREM; 
+    System.out.println(myVar); 
+  } 
+}
